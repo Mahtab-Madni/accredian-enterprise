@@ -318,9 +318,7 @@ Retrieve all captured leads.
 ### Environment Variables (if needed)
 
 - Add any `.env.local` variables in Vercel Settings → Environment Variables
-
 ---
-
 
 ## 📄 License
 
