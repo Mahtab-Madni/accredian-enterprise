@@ -6,7 +6,7 @@ A pixel-faithful clone of [enterprise.accredian.com](https://enterprise.accredia
 
 ## Live Demo & Repository
 
-- **Live URL**: (https://accredian-enterprise-ten.vercel.app/)
+- **Live URL**: (https://accredian-enterprise-two.vercel.app/)
 - **GitHub Repository**: (https://github.com/Mahtab-Madni/accredian-enterprise)
 
 ---
@@ -289,35 +289,6 @@ Retrieve all captured leads.
     - E2E tests with Playwright
     - Form validation edge case testing
 
----
-
-##  Deployment on Vercel
-
-### Steps to Deploy
-
-1. **Push code to GitHub**
-
-   ```bash
-   git add .
-   git commit -m "Final submission"
-   git push origin main
-   ```
-
-2. **Connect to Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Select your GitHub repository
-   - Click "Deploy"
-
-3. **Vercel will automatically**
-   - Install dependencies
-   - Build the Next.js app
-   - Deploy to production
-   - Assign a URL (e.g., `https://accredian-enterprise.vercel.app`)
-
-### Environment Variables (if needed)
-
-- Add any `.env.local` variables in Vercel Settings → Environment Variables
 ---
 
 ## 📄 License
