@@ -61,7 +61,7 @@ npm start
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 accredian-enterprise/
@@ -95,7 +95,7 @@ accredian-enterprise/
 
 ---
 
-## 🧠 Approach Taken
+##  Approach Taken
 
 ### 1. **Reference Site Analysis**
 
@@ -133,7 +133,7 @@ accredian-enterprise/
 
 ---
 
-## 🤖 AI Usage Explanation
+## AI Usage Explanation
 
 ### Where AI Helped
 
@@ -162,7 +162,7 @@ accredian-enterprise/
 
 ---
 
-## 🎯 Features Implemented
+##  Features Implemented
 
 ### Core Features 
 
@@ -186,7 +186,7 @@ accredian-enterprise/
 
 ---
 
-## 📬 API Endpoints
+##  API Endpoints
 
 ### POST `/api/leads`
 
@@ -328,7 +328,7 @@ MIT License — feel free to use this for reference or personal projects.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mahtab Madni**  
 Full Stack Developer Intern Submission  
