@@ -6,8 +6,8 @@ A pixel-faithful clone of [enterprise.accredian.com](https://enterprise.accredia
 
 ## Live Demo & Repository
 
-- **Live URL**: [Deploy to Vercel and update link]
-- **GitHub Repository**: [Link to your GitHub repository]
+- **Live URL**: (https://accredian-enterprise-ten.vercel.app/)
+- **GitHub Repository**: (https://github.com/Mahtab-Madni/accredian-enterprise)
 
 ---
 
@@ -42,18 +42,14 @@ cd accredian-enterprise
 # 2. Install dependencies
 npm install
 
-# 3. Create environment variables (if needed)
-# Copy .env.example to .env.local (if it exists)
-cp .env.example .env.local
-
-# 4. Run development server
+# 3. Run development server
 npm run dev
 # Open http://localhost:3000 in your browser
 
-# 5. Build for production
+# 4. Build for production
 npm run build
 
-# 6. Start production server
+# 5. Start production server
 npm start
 ```
 
@@ -79,11 +75,11 @@ accredian-enterprise/
 │   │   ├── HowItWorks.tsx          # 3-step delivery process
 │   │   ├── FAQs.tsx                # Tabbed accordion for FAQs
 │   │   ├── Testimonials.tsx        # Testimonial carousel
-│   │   ├── LeadForm.tsx            # Lead capture modal form ⭐ BONUS
+│   │   ├── LeadForm.tsx            # Lead capture modal form
 │   │   └── Footer.tsx              # Footer with links & contact
 │   ├── api/
 │   │   └── leads/
-│   │       └── route.ts            # POST & GET API for leads ⭐ BONUS
+│   │       └── route.ts            # POST & GET API for leads
 │   ├── globals.css                 # Global Tailwind styles
 │   ├── layout.tsx                  # Root layout
 │   └── page.tsx                    # Main page (orchestrates all components)
@@ -168,7 +164,7 @@ accredian-enterprise/
 
 ## 🎯 Features Implemented
 
-### Core Features ✅
+### Core Features 
 
 - [x] Fully responsive landing page (mobile + desktop)
 - [x] 10 major sections with smooth scrolling
@@ -178,7 +174,7 @@ accredian-enterprise/
 - [x] Tailwind CSS for styling
 - [x] Clean, readable code structure
 
-### Bonus Features ⭐
+### Bonus Features 
 
 - [x] Lead capture form with modal design
 - [x] Form validation (name, email, company required)
@@ -203,7 +199,7 @@ Capture lead information from the form.
   "name": "John Doe",
   "email": "john@example.com",
   "company": "Acme Corp",
-  "phone": "+91-9876543210",
+  "phone": "+919876543210",
   "domain": "Gen-AI Mastery",
   "candidates": "50",
   "delivery": "Online"
@@ -241,7 +237,7 @@ Retrieve all captured leads.
 
 ---
 
-## ⭐ Improvements With More Time
+##  Improvements With More Time
 
 1. **Database Integration**
    - Replace JSON file storage with PostgreSQL or MongoDB
@@ -295,7 +291,7 @@ Retrieve all captured leads.
 
 ---
 
-## 🚀 Deployment on Vercel
+##  Deployment on Vercel
 
 ### Steps to Deploy
 
@@ -325,42 +321,6 @@ Retrieve all captured leads.
 
 ---
 
-## 🧪 Testing Checklist
-
-- [ ] All sections render without console errors
-- [ ] Responsive on mobile (320px), tablet (768px), desktop (1024px+)
-- [ ] Navigation links scroll to correct sections
-- [ ] Lead form validates required fields
-- [ ] Form submission succeeds and shows success message
-- [ ] Leads are stored (check via `/api/leads` GET endpoint)
-- [ ] All animations load smoothly without jank
-- [ ] Images load correctly
-- [ ] No layout shifts or CLS issues
-
----
-
-## 📬 Submission Checklist
-
-Before submitting, ensure:
-
-- [ ] Live URL is deployed on Vercel
-- [ ] GitHub repository is public and contains all code
-- [ ] README includes setup instructions
-- [ ] README explains approach taken
-- [ ] README documents AI usage
-- [ ] README lists improvements for future work
-- [ ] All bonus features are functional
-- [ ] No console errors in production
-- [ ] Form successfully captures and stores leads
-
----
-
-## 📋 Submission Form
-
-Once everything is ready, submit here:
-[Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSeC-GbWRJNCY5ja3nFV8a2G4ChP4Ar_7lMZSbLAtcKRP0oJ2Q/viewform)
-
----
 
 ## 📄 License
 
@@ -370,6 +330,6 @@ MIT License — feel free to use this for reference or personal projects.
 
 ## 👤 Author
 
-**Your Name**  
+**Mahtab Madni**  
 Full Stack Developer Intern Submission  
 April 2026
