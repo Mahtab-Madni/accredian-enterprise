@@ -31,10 +31,16 @@ export default function LeadFormModal({ isOpen, onClose }: LeadFormModalProps) {
     if (!form.name || !form.email || !form.company) return;
     setStatus("loading");
     try {
+      // Add +91 prefix to phone if it exists
+      const phoneWithCountryCode = form.phone ? `+91${form.phone}` : "";
+
       const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          ...form,
+          phone: phoneWithCountryCode,
+        }),
       });
       if (res.ok) {
         setStatus("success");

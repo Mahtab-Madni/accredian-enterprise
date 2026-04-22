@@ -5,10 +5,13 @@ import path from "path";
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, email, company, phone, message } = body;
+    const { name, email, company, phone, domain, candidates, delivery } = body;
 
     if (!name || !email || !company) {
-      return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+      return NextResponse.json(
+        { error: "Missing required fields" },
+        { status: 400 },
+      );
     }
 
     const lead = {
@@ -17,7 +20,9 @@ export async function POST(req: NextRequest) {
       email,
       company,
       phone: phone || "",
-      message: message || "",
+      domain: domain || "",
+      candidates: candidates || "",
+      delivery: delivery || "",
       createdAt: new Date().toISOString(),
     };
 
@@ -40,7 +45,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true, lead }, { status: 201 });
   } catch (err) {
     console.error("Lead capture error:", err);
-    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Internal server error" },
+      { status: 500 },
+    );
   }
 }
 

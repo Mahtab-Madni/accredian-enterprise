@@ -7,5 +7,16 @@
     "phone": "+919876543210",
     "message": "I am interested in learning more about your services.",
     "createdAt": "2026-04-22T06:14:11.143Z"
+  },
+  {
+    "id": 1776838971967,
+    "name": "Mahtab Madni",
+    "email": "mahtabjmi2005@gmail.com",
+    "company": "American",
+    "phone": "9458976754",
+    "domain": "Gen-AI Mastery",
+    "candidates": "23",
+    "delivery": "Online",
+    "createdAt": "2026-04-22T06:22:51.967Z"
   }
 ]
